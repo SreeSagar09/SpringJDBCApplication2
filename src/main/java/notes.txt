@@ -1,0 +1,22 @@
+Simple Program to show how to configure spring jdbc using java file and how to insert record in to db:
+Programs:
+* Employee.java
+* AppConfig.java
+* Test.java
+Note:
+* update(String sql, @Nullable Object... args) method accept two arguments, first one is sql query and another one is object arguments of input parameters of query.
+* update(String sql, Object[] args, int[] argTypes) method accept three arguments, first one is sql query and second one is object array of input parameters and third one is int array of input parameters Types
+* java.sql.Type class is gives all generic sql types.  
+Output:
+Number of Beans: 8
+Beans Names:
+org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+org.springframework.context.annotation.internalCommonAnnotationProcessor
+org.springframework.context.event.internalEventListenerProcessor
+org.springframework.context.event.internalEventListenerFactory
+appConfig
+driverManagerDataSource
+jdbcTemplate
+Record inserted successfully.
+Record inserted successfully.
